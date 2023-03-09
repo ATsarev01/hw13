@@ -5,11 +5,14 @@ public class Main {
         Book threeComrads = new Book("Три товарища", 1937, remark);
         Book angelsAndDemons = new Book("Ангелы и Демоны", 1998, brown);
 
-        threeComrads.printInfo();
-        angelsAndDemons.printInfo();
+        System.out.println(threeComrads);
+        System.out.println(angelsAndDemons);
 
         threeComrads.setPublishingYear(1938);
-        threeComrads.printInfo();
+        System.out.println(threeComrads);
+
+        System.out.println(threeComrads.equals(angelsAndDemons));
+
 
     }
 }
