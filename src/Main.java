@@ -11,7 +11,7 @@ public class Main {
         threeComrads.setPublishingYear(1938);
         System.out.println(threeComrads);
 
-        System.out.println(threeComrads.equals(angelsAndDemons));
+        System.out.println(remark.equals(brown));
 
 
     }
